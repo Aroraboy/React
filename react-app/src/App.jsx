@@ -5,8 +5,22 @@ import Card from "./Card.jsx";
 import Button from "./Button.jsx";  
 import Student from "./student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
+import List from "./List.jsx";
 
 function App() {
+
+  const fruits = [{id: 1,name: 'Apple', calories: 95},
+                  {id: 2,name: 'Banana', calories: 105}, 
+                  {id: 3,name: 'Cherry', calories: 50},
+                  {id: 4,name: 'Date', calories: 20},
+                  {id: 5,name: 'Elderberry', calories: 30}];
+
+  const vegetables = [{id: 1,name: 'Carrot', calories: 25},
+                      {id: 2,name: 'Broccoli', calories: 55}, 
+                      {id: 3,name: 'Spinach', calories: 20},
+                      {id: 4,name: 'Potato', calories: 130},
+                      {id: 5,name: 'Cabbage', calories: 22}];                
+
   return(
     <>
     <Header/>
@@ -20,6 +34,8 @@ function App() {
     <Student name="Bob Brown" age="28" isStudent={false}/>
     <Student/>
     <UserGreeting isLoggedIn={true} username="Divyansh"  />
+    {fruits.length > 0 ?<List items={fruits} category="Fruits"/> : null}
+    {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
     </>
   )
 }
