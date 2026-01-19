@@ -6,6 +6,7 @@ import Button from "./Button.jsx";
 import Student from "./student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import Img from "./img.jsx";
 
 function App() {
 
@@ -27,7 +28,6 @@ function App() {
     <Food/>
     <Footer/>
     <Card/>
-    <Button/>
     <Student name="John Doe" age="30" isStudent={true}/>
     <Student name="Jane Smith" age="25" isStudent={false}/>
     <Student name="Alice Johnson" age="22" isStudent={true}/>
@@ -36,6 +36,8 @@ function App() {
     <UserGreeting isLoggedIn={true} username="Divyansh"  />
     {fruits.length > 0 ?<List items={fruits} category="Fruits"/> : null}
     {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
+    <Button/>
+    <Img/>
     </>
   )
 }
