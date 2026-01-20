@@ -9,6 +9,7 @@ import List from "./List.jsx";
 import Img from "./img.jsx";
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx";
+import Event from "./Event.jsx";
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
     <Img/>
     <MyComponent/>
     <Counter/>
+    <Event/>
     </>
   )
 }
