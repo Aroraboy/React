@@ -10,6 +10,7 @@ import Img from "./img.jsx";
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx";
 import Event from "./Event.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
     <MyComponent/>
     <Counter/>
     <Event/>
+    <ColorPicker/>
     </>
   )
 }
