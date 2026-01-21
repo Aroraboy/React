@@ -11,6 +11,7 @@ import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx";
 import Event from "./Event.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import Update from "./update.jsx";
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
     <Counter/>
     <Event/>
     <ColorPicker/>
+    <Update/>
     </>
   )
 }
