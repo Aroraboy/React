@@ -12,6 +12,7 @@ import Counter from "./Counter.jsx";
 import Event from "./Event.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Update from "./update.jsx";
+import Array from "./Array.jsx";
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
     <Event/>
     <ColorPicker/>
     <Update/>
+    <Array/>
     </>
   )
 }
