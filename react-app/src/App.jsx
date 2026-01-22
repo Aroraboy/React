@@ -14,6 +14,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import Update from "./update.jsx";
 import Array from "./Array.jsx";
 import Object from "./Object.jsx";
+import ToDoList from "./ToDoList.jsx";
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
     <Update/>
     <Array/>
     <Object/>
+    <ToDoList/>
     </>
   )
 }
