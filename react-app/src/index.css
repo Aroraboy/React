@@ -152,7 +152,7 @@ input[type="color"]{
   border: 3px solid hsl(0, 0%, 80%);
 }  
 body{
-  background-color: hsl(0, 0%, 10%);
+  background-color: hsl(195, 40%, 2%);
 }
 .to-do-list{
   font-family: Arial, sans-serif;
@@ -218,5 +218,18 @@ li{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+.clock-container{
+  backdrop-filter: blur(10px);
+  padding: 10px 0;
+}
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.4);
+
 }
 

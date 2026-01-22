@@ -16,6 +16,7 @@ import Array from "./Array.jsx";
 import Object from "./Object.jsx";
 import ToDoList from "./ToDoList.jsx";
 import Effect from "./Effect.jsx";
+import DigitalClock from "./DigitalClock.jsx";
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
     <Object/>
     <ToDoList/>
     <Effect/>
+    <DigitalClock/>
     </>
   )
 }
