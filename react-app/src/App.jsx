@@ -13,6 +13,7 @@ import Event from "./Event.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Update from "./update.jsx";
 import Array from "./Array.jsx";
+import Object from "./Object.jsx";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
     <ColorPicker/>
     <Update/>
     <Array/>
+    <Object/>
     </>
   )
 }
