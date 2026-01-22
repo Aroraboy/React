@@ -15,6 +15,7 @@ import Update from "./update.jsx";
 import Array from "./Array.jsx";
 import Object from "./Object.jsx";
 import ToDoList from "./ToDoList.jsx";
+import Effect from "./Effect.jsx";
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
     <Array/>
     <Object/>
     <ToDoList/>
+    <Effect/>
     </>
   )
 }
