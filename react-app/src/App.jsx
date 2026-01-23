@@ -18,7 +18,7 @@ import ToDoList from "./ToDoList.jsx";
 import Effect from "./Effect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import ComponentA from "./ComponentA.jsx";
-
+import Ref from "./Ref.jsx";
 
 function App() {
 
@@ -61,6 +61,7 @@ function App() {
     <Effect/>
     <DigitalClock/>
     <ComponentA/>
+    <Ref/>
     
     </>
   )
