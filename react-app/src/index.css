@@ -152,7 +152,7 @@ input[type="color"]{
   border: 3px solid hsl(0, 0%, 80%);
 }  
 body{
-  background-color: hsl(195, 40%, 2%);
+  background-color: white;
 }
 .to-do-list{
   font-family: Arial, sans-serif;
@@ -231,5 +231,9 @@ li{
   text-align: center;
   text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.4);
 
+}
+.box{
+  border: 3px solid black;
+  padding: 25px;
 }
 
