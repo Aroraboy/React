@@ -19,6 +19,7 @@ import Effect from "./Effect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import ComponentA from "./ComponentA.jsx";
 import Ref from "./Ref.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 
 function App() {
 
@@ -62,6 +63,7 @@ function App() {
     <DigitalClock/>
     <ComponentA/>
     <Ref/>
+    <Stopwatch/>
     
     </>
   )
